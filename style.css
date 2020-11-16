@@ -30,7 +30,8 @@ body {
 .user-info {
     color: #ecf0f1;
     display: inline-block;
-    vertical-align: middle;
+    justify-items: start;
+    vertical-align: start;
 }
 
 #profile-pic {
@@ -110,15 +111,16 @@ button {
 
 #pokemon-text {
     vertical-align: middle;
+
 }
 
 .pokemon-container {
     font-size: 20px;
     padding: 1vw;
     display: grid;
-    grid-template-columns: minmax(150px, 150px) minmax(200px, 400px);
+    grid-template-columns: minmax(200px, 400px) minmax(150px, 150px) ;
     align-items: center;
-    justify-self: baseline;
+    justify-self: start;
     border-bottom: 1px solid #2c3e50;
 }
 
